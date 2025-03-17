@@ -6,15 +6,12 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def print_welcome_message():
-    print(Fore.GREEN + Style.BRIGHT + r"""
-_  _ _   _ ____ ____ _    ____ _ ____ ___  ____ ____ ___ 
-|\ |  \_/  |__| |__/ |    |__| | |__/ |  \ |__/ |  | |__]
-| \|   |   |  | |  \ |    |  | | |  \ |__/ |  \ |__| |         
+    print(Fore.GREEN + Style.BRIGHT + r""" Airdrop Seeker     
           """)
     print(Fore.GREEN + "Selamat datang di Program Decode URL Data tgWebApp\n")
     print(Fore.YELLOW + "Silakan simpan URL Data tgWebApp di file 'u.txt' dengan aturan 1 akun 1 baris data.")
     print(Fore.YELLOW + "Hasil Decode akan disimpan di 'data.txt'.")
-    print(Fore.CYAN + "Telegram: https://t.me/nyariairdrop\n")
+    print(Fore.CYAN + "Telegram: https://t.me/airdropseeker_official\n")
 
 def process_account_data(line):
     # Mengambil substring setelah '#tgWebAppData=' sampai sebelum '&tgWebAppVersion'
